@@ -1,63 +1,312 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Home page</title>
-    <link
-      rel="stylesheet"
-      href="style.css" />
-    <script src="myscripts.js"></script>
+<html lang="it">
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous" />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIFM+B07jRM"
-      crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a
-        class="navbar-brand"
-        href="#">
-        <img
-          src="/images/immagine profilo.jpg"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt="" />
-        Luca Asunis
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luca Asunis - Full Stack Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="profile-section">
+        <div class="profile-image">
+          <img src="assets/profile-img.jpg" alt="Luca Asunis">
+        </div>
+        <div class="profile-info">
+          <h1>Luca Asunis</h1>
+          <p>Full Stack Developer</p>
+        </div>
       </div>
-    </nav>
-  </body>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/luca-asunis" target="_blank">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+          </svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/LucaAs98" target="_blank">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+          </svg>
+          GitHub
+        </a>
+        <a href="https://www.researchgate.net/profile/Luca-Asunis" target="_blank">
+          <svg viewBox="0 0 32 32">
+            <path
+              d="M17.25 22.97c-1.43-.28-2.28-1.11-4.45-4.33-.72-1.08-.72-1.08-1.42-1.13-1.03-.07-.95-.25-.92 2.02.04 2.58.01 2.52 1.5 2.77.39.06.42.09.42.32 0 .26 0 .26-2.62.28-2.46.02-2.62.01-2.67-.14-.1-.29.05-.43.59-.53.61-.11.93-.36 1.01-.78.04-.16.05-2.32.03-4.8-.03-5.21.03-4.9-.93-5.11-.6-.13-.79-.27-.71-.51.06-.16.19-.17 2.92-.22 4.06-.08 4.82.05 5.9 1.01 1.13 1.01 1.29 2.55.39 3.84-.4.58-1.2 1.2-1.82 1.43-.29.11-.53.23-.53.27 0 .12.92 1.43 1.49 2.13 1.52 1.85 2.34 2.57 3.19 2.79.53.14.68.29.53.55-.16.27-.96.33-1.9.14zm-3.83-6.63c2-.82 2.15-3.57.25-4.38-.49-.21-.62-.22-1.85-.22-1.33 0-1.33 0-1.35 2.31-.02 1.27-.01 2.37.02 2.43.09.21 2.34.1 2.93-.14zm6.97-2.85c-1.55-.29-2.06-1.24-1.98-3.68.04-1.35.15-1.72.67-2.28.92-.99 3.2-.9 4.04.16.36.45.33.59-.17.74-.39.13-.39.13-.75-.23-.85-.82-2.32-.52-2.58.54-.13.47-.12 2.46.01 2.91.35 1.27 2.46 1.27 2.82 0 .22-.81.17-.87-.8-.92-.47-.02-.47-.02-.47-.41 0-.38 0-.38 1.12-.41 1.45-.03 1.43-.05 1.36 1.01-.09 1.33-.45 1.97-1.32 2.35-.57.24-1.35.33-1.95.22z" />
+          </svg>
+          ResearchGate
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <button class="hamburger" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul>
+      <li><a href="#about">Chi Sono</a></li>
+      <li><a href="#experience">Esperienza</a></li>
+      <li><a href="#projects">Progetti</a></li>
+      <li><a href="#skills">Competenze</a></li>
+      <li><a href="#contact">Contatti</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="section">
+    <h2 class="section-title">Chi Sono</h2>
+    <div class="about-content">
+      <div class="highlight-box">
+        <span class="emoji-icon">👋</span>
+        Ciao, sono Luca Asunis, un appassionato <strong>Full Stack Developer</strong> di Cagliari. Fin da giovane, la
+        tecnologia ha sempre catturato la mia attenzione, spingendomi a esplorare nuove sfide e opportunità.
+      </div>
+      <div class="about-grid">
+        <div>
+          <div class="section-subtitle"> <span class="emoji-icon">💡</span>Attualmente </div>
+          <p> Contribuisco allo sviluppo di una piattaforma <strong>GenAI</strong> per la generazione di contenuti
+            tramite <strong>intelligenza artificiale</strong>.
+          <p>In questo ruolo:</p>
+          </p>
+          <ul>
+            <p>&nbsp; ✨ Sviluppo il <strong>front end</strong> con <strong>TypeScript</strong> e
+              <strong>Angular</strong>.
+            </p>
+            <p>&nbsp; 🔗 Collaboro per implementare <strong>API GraphQL</strong> che permettono la comunicazione tra
+              front end e back end.
+            </p>
+            <p>&nbsp; ☁️ Gestisco ambienti di sviluppo e il <strong>deploy</strong> utilizzando
+              <strong>Firebase</strong> e <strong>Google Cloud Platform</strong>.
+            </p>
+          </ul>
+          <p class="conclusions"> Questa esperienza ha potenziato le mie <strong>competenze tecniche</strong> e mi ha
+            insegnato l'importanza del <strong>lavoro in team</strong> in un ambiente dinamico.</p>
+        </div>
+
+        <div>
+          <div class="section-subtitle">
+            <span class="emoji-icon">🎯</span>Specializzazioni
+          </div>
+          <div class="interests-list">
+            <div class="interest-item">
+              <span>🤖</span>Sistemi IoT
+            </div>
+            <div class="interest-item">
+              <span>🌐</span>Web Development
+            </div>
+            <div class="interest-item">
+              <span>🧠</span>Machine Learning
+            </div>
+            <div class="interest-item">
+              <span>🔧</span>Sviluppo API
+            </div>
+            <div class="interest-item">
+              <span>📱</span>Android Development
+            </div>
+            <div class="interest-item">
+              <span>☁️</span>Cloud e Database
+            </div>
+            <div class="interest-item">
+              <span>🎮</span>Unity & XR
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <div class="section-subtitle">
+          <span class="emoji-icon">🎓</span>Background
+        </div>
+        <p>Sono laureato in Informatica con specializzazione in <strong>Tecniche del Software</strong> ed i miei
+          principali interessi sono l'<strong>IoT</strong>, l'<strong>intelligenza artificiale</strong> e la
+          <strong>realtá virtuale</strong>, sempre con un occhio di riguardo per le <strong>tecnologie
+            emergenti</strong>.
+        </p>
+      </div>
+
+      <div style="margin-top: 2rem; text-align: center; color: #666;">
+        <p>🌍 Livello di inglese: <strong>B2</strong> · 📍 <strong>Cagliari</strong> · 📫 <strong>Aperto a nuove
+            opportunità</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2 class="section-title">Esperienza Professionale</h2>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3 class="job-title">Full Stack Developer</h3>
+        <div class="company-badge">ByteCare S.r.l.</div>
+      </div>
+      <div class="timeline">Settembre 2023 - Ottobre 2024</div>
+      <p class="description">Sviluppo di una piattaforma di <strong>generazione di contenuti</strong> tramite
+        intelligenza artificiale utilizzando:</p>
+      <ul class="tech-stack">
+        <li class="tech-item">
+          <span class="tech-icon">🌐</span>
+          TypeScript e Angular per il front-end
+        </li>
+        <li class="tech-item">
+          <span class="tech-icon">⚡</span>
+          GraphQL e NodeJS per le API
+        </li>
+        <li class="tech-item">
+          <span class="tech-icon">☁️</span>
+          Firebase e Google Cloud Platform per il deployment
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title">Progetti Principali</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-image" style="--image-url: url('assets/crocsXR.png');">
+          <img class="project-image-source" src="assets/crocsXR.png">
+        </div>
+        <div class="project-info">
+          <h3>CRoCs-XR</h3>
+          <p>Esperienza di <strong>shopping virtuale</strong>, basata sull'<strong>asimmetria di Realtà Virtuale e
+              Aumentata</strong>: il soggetto indossante un casco immersivo VR, potrà provare dei vestiti in una
+            dressing room virtuale e condividere il suo outfit in <strong>tempo reale</strong> con soggetti usanti AR in
+            un <strong>dispositivo mobile e lowcost</strong>.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image" style="--image-url: url('assets/hoctopus.png');">
+          <img class="project-image-source" src="assets/hoctopus.png">
+        </div>
+        <div class="project-info">
+          <h3>HOCTOPUS</h3>
+          <p> Sistema di <strong>Cross-Reality</strong> progettato per migliorare le
+            <strong>lezioni in streaming a distanza</strong>, integrando esperienze di <strong>Realtà Aumentata</strong>
+            e <strong>Realtà Mista</strong>. Consiste in un'applicazione MR per insegnanti, compatibile con
+            <strong>Hololens 2</strong>, e un'app AR per <strong>dispositivi mobili Android</strong>, dedicata agli
+            studenti. Gli insegnanti possono <strong>visualizzare</strong>, <strong>manipolare</strong> e
+            <strong>condividere</strong> oggetti tridimensionali in <strong>tempo reale</strong> durante le lezioni,
+            facilitando una comunicazione interattiva e un maggiore <strong>coinvolgimento degli studenti</strong>.
+          </p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image" style="--image-url: url('assets/bike-fleet-monitoring.jpg');">
+          <img class="project-image-source" src="assets/bike-fleet-monitoring.jpg">
+        </div>
+        <div class="project-info">
+          <h3>Bike Fleet Monitoring</h3>
+          <p>
+            Piattaforma software <strong>context-aware</strong> di gestione di una flotta di veicoli, nello specifico
+            bici a noleggio fornite da un servizio della municipalità di Bologna.
+          </p>
+          <p>
+            La piattaforma è composta da un client mobile (<strong>app Android</strong>), un <strong>back-end</strong>
+            ed un <strong>front-end</strong> per la visualizzazione dati da parte della municipalità.
+          </p>
+          <p>
+            <strong>Parte mobile</strong>: Android Studio e Java;<br>
+            <strong>Web Server</strong>: NodeJS e PostgreSQL;<br>
+            <strong>Front-end</strong>: Javascript e Leaflet.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="social-section">
+      <p class="github-text">Per altri progetti visita il mio profilo GitHub.</p>
+      <a href="https://github.com/LucaAs98" target="_blank" class="github-button">
+        <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
+        <span class="button-text">Visita il mio GitHub</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title">Competenze</h2>
+    <div class="skills-container">
+      <div class="skill-item">TypeScript</div>
+      <div class="skill-item">Python</div>
+      <div class="skill-item">JavaScript</div>
+      <div class="skill-item">Angular</div>
+      <div class="skill-item">Java</div>
+      <div class="skill-item">GraphQL</div>
+      <div class="skill-item">Firebase</div>
+      <div class="skill-item">Unity</div>
+      <div class="skill-item">Machine Learning</div>
+      <div class="skill-item">IoT</div>
+      <div class="skill-item">Google Cloud Platform</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="section-title">Contatti</h2>
+    <div class="contact-container">
+      <div class="contact-card">
+        <a href="mailto:lucaasunis1@gmail.com" class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 4-10 8L2 4" />
+            </svg>
+          </div>
+          <div class="contact-content">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">lucaasunis1@gmail.com</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <a href="tel:+393473290919" class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+          </div>
+          <div class="contact-content">
+            <span class="contact-label">Telefono</span>
+            <span class="contact-value">347 329 0919</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div class="contact-content">
+            <span class="contact-label">Località</span>
+            <span class="contact-value">Cagliari</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Luca Asunis. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+
+<script src="script.js"></script>
+
 </html>
